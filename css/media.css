@@ -1,0 +1,216 @@
+/*From bootstrap 4.6*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*common start*/
+body {
+margin-top: 60px;
+}
+.com_pad1 {
+padding: 60px 0;
+} 
+/*header start*/
+header{
+padding: 10px 0;
+}
+.menu ul li a{
+padding: 10px 0 0 !important;
+text-align: left;
+}
+/*banner start*/
+.b_text {
+margin: 50px 0 60px;
+padding: 0 5px;
+text-align: center;
+}
+.b_logo {
+width: 35%;
+}
+.bh1 {
+margin: 25px 0 10px;
+font-size: 21px;
+}
+.b_p {
+margin: 10px 0 25px;
+padding: 0px 26px;
+font-size: 14px;
+}
+.b_btn {
+padding: 5px 20px;
+font-size: 14px;
+}
+/*tab start*/
+.tabs li {
+height: 100px;
+width: 65px;
+}
+.tabs a {
+padding: 0px;
+}
+.tab_txt {
+padding-right: 0;
+}
+.tab_txt h3 {
+margin-bottom: 10px;
+font-size: 14px;
+text-align: center;
+}
+.tab_txt p {
+margin-bottom: 10px;
+font-size: 11px;
+text-align: center;
+}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*common start*/
+body {
+margin-top: 70px;
+}
+.com_pad1 {
+padding: 60px 0;
+}
+/*header start*/
+header{
+padding: 15px 0;
+}
+.menu ul li a{
+padding: 10px 0 0 !important;
+text-align: left;
+}
+/*banner start*/
+.b_text {
+margin: 55px 0 65px;
+padding: 0 12px;
+text-align: center;
+}
+.b_logo {
+    width: 35%;
+}
+.bh1 {
+margin: 30px 0 15px;
+font-size: 24px;
+}
+.b_p {
+margin: 15px 0 30px;
+padding-right: 0;    
+}
+/*tab start*/
+.tabs li {
+height: 100px;
+width: 100px;
+}
+.tabs a {
+padding: 25px;
+}
+.tab_txt {
+padding-right: 0;
+}
+.tab_txt h3 {
+margin-bottom: 15px;
+}
+.tab_txt p {
+margin-bottom: 15px;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*common start*/
+.com_pad1{
+padding: 70px 0;
+}
+/*header start*/
+.menu ul li a{
+padding: 10px 0 0 !important;
+text-align: left;
+}
+/*banner start*/
+.b_text {
+margin: 70px 0 90px;
+padding-right: 0;
+}
+.b_logo {
+width: 40%;
+}
+.bh1 {
+margin: 20px 0;
+font-size: 27px;
+}
+.b_p {
+margin: 20px 0 35px;
+padding-right: 17px;    
+}
+.form_title {
+padding: 10px 0;
+font-size: 15px;
+}
+.ban_form {
+padding: 15px;
+}
+.f_input {
+margin: 10px 0;
+padding: 5px;
+}
+.f_btn {
+padding: 10px 0;
+}
+/*tab start*/
+.tab_txt {
+padding-right: 25px;
+}
+.tab_txt h3 {
+margin-bottom: 20px;
+}
+.tab_txt p {
+margin-bottom: 15px;
+}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/*header start*/
+.menu ul li a {
+padding: 0px 15px !important;
+}
+/*banner start*/
+.b_text {
+margin: 100px 0 110px;
+padding-right: 10px;
+}
+.ban_form {
+padding: 15px 30px;
+}
+/*tab start*/
+.com_pad1 {
+padding: 100px 0;
+}
+.tab_txt {
+padding-right: 35px;
+}
+.tab_txt h3 {
+margin-bottom: 25px;
+}
+.tab_txt p {
+margin-bottom: 20px;
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+.menu ul li a {
+padding: 0px 30px !important;
+}
+.b_text {
+    margin: 110px 0 135px;
+    padding-right: 200px;
+}
+.b_form {
+margin-left: 90px;
+}
+}
